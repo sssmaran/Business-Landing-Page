@@ -8,14 +8,13 @@ const Hero = () => {
   return (
     <Container>
       <div className="text">
-        <header>Bridging the gap between</header>
         <header>
-          academia and industry<span className="dot">.</span>
+          Learn today, lead tomorrow<span className="dot">.</span>
         </header>
         <p>
           Join us in our mission to create a world where academia and industry
           work together <br />
-          seamlessly, and innovation thrives.{" "}
+          seamlessly, and innovation thrives.
         </p>
       </div>
       <div className="extra">
