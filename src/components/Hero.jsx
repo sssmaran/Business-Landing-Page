@@ -12,9 +12,10 @@ const Hero = () => {
           Learn today, lead tomorrow<span className="dot">.</span>
         </header>
         <p>
-          Join us in our mission to create a world where academia and industry
-          work together <br />
-          seamlessly, and innovation thrives.
+          Join us in our mission to bring together the worlds of learning and
+          practical implementation,
+          <br />
+          ultimately leading us towards a better and more progressive world.
         </p>
       </div>
       <div className="extra">
