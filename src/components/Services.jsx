@@ -46,6 +46,11 @@ const Container = styled.div`
       width: 20;
       height: 20;
     }
+    .part-1,
+    .part-2 {
+      margin-top: 1rem;
+      margin: 1rem 0 0 0;
+    }
   }
   img {
     padding: 2rem;

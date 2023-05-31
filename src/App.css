@@ -34,5 +34,6 @@ body::-webkit-scrollbar-thumb {
   *,
   html,
   body {
+    font-size: 14px;
   }
 }

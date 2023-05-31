@@ -51,7 +51,7 @@ const Container = styled.div`
   gap: 2rem;
   font-weight: 500;
   @media (max-width: 575px) {
-    gap: 1rem;
+    /* gap: 8rem; */
     padding: 3rem;
     border-radius: 30px 30px 80px 30px;
   }
@@ -61,11 +61,14 @@ const Container = styled.div`
   p {
     color: #bdbdbd;
     font-size: 1.2rem;
+    @media (max-width: 575px) {
+      margin-bottom: 1.5rem;
+    }
   }
   header {
     font-size: 3.3rem;
     @media (max-width: 575px) {
-      font-size: 2.5rem;
+      font-size: 3rem;
     }
   }
   button {
@@ -82,8 +85,6 @@ const Container = styled.div`
     align-self: flex-end;
     @media (max-width: 575px) {
       align-self: center;
-    }
-    @media (max-width: 575px) {
       font-size: 0.8rem;
     }
 
@@ -98,7 +99,6 @@ const Container = styled.div`
     justify-content: space-between;
     align-items: center;
     @media (max-width: 575px) {
-      margin-top: 3rem;
       /* align-items: center;
       justify-content: center; */
       img {
@@ -111,6 +111,9 @@ const Container = styled.div`
     }
     @media (max-width: 768px) {
       margin-top: -1rem;
+    }
+    @media (max-width: 978px) {
+      margin-top: -3rem;
     }
   }
 `;

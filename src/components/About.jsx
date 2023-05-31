@@ -54,17 +54,13 @@ const Container = styled.div`
     }
   }
   @media (max-width: 1280px) {
-    text-align: center;
     flex-direction: column;
   }
   span {
     font-size: 2rem;
     font-weight: 600;
   }
-  .name {
-    font-size: 1.2rem;
-    font-weight: 900;
-  }
+
   header {
     padding-left: 1.2rem;
     @media (max-width: 575px) {
@@ -112,6 +108,10 @@ const Container = styled.div`
       }
       .about-part2 {
         border: none;
+        font-size: 1.2rem;
+      }
+      .about-part1 {
+        font-size: 1.2rem;
       }
     }
     @media (max-width: 768px) {
@@ -123,6 +123,9 @@ const Container = styled.div`
   }
   p {
     padding: 0 1rem;
+    @media (max-width: 575px) {
+      font-size: 1.2rem;
+    }
   }
   .border {
     z-index: -99;
