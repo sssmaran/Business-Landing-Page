@@ -9,7 +9,7 @@ const Hero = () => {
     <Container>
       <div className="text">
         <header>
-          Learn today, lead tomorrow<span className="dot">.</span>
+          Learn today, Lead tomorrow<span className="dot">.</span>
         </header>
         <p>
           Join us in our mission to bring together the worlds of learning and

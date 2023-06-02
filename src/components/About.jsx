@@ -87,7 +87,6 @@ const Container = styled.div`
     /* align-items: center; */
     margin-right: 10rem;
     line-height: 1.8;
-    gap: 3rem;
     @media (max-width: 575px) {
       margin: 0;
     }
